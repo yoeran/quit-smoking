@@ -1,0 +1,27 @@
+{
+    "name": "quit-smoking",
+    "version": "1.0.0",
+    "description": "Nice big beautiful time keeper for your non-smoking sobriety. Inspired by Jake Albaugh",
+    "scripts": {
+        "start": "parcel src/index.html",
+        "build": "npm run clean && parcel build src/index.html",
+        "clean": "rimraf dist"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/yoeran/quit-smoking"
+    },
+    "keywords": [
+        "smoking",
+        "visualisation"
+    ],
+    "author": "Yoeran Luteijn",
+    "license": "MIT",
+    "devDependencies": {
+        "parcel-bundler": "^1.12.4",
+        "sass": "^1.23.7"
+    },
+    "dependencies": {
+        "rimraf": "^3.0.0"
+    }
+}

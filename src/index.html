@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="nl">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+        <title>Quit Smoking</title>
+
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="./apple-touch-icon.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="./favicon-16x16.png"
+        />
+        <link rel="manifest" href="./site.webmanifest" />
+        <link rel="mask-icon" href="./safari-pinned-tab.svg" color="#00b894" />
+        <meta name="msapplication-TileColor" content="#00b894" />
+        <meta name="theme-color" content="#00b894" />
+
+        <link rel="stylesheet" href="./app.scss" />
+    </head>
+    <body>
+        <div id="app">
+            <header class="container">
+                <h1><span data-name></span> stopt.</h1>
+                <p>
+                    <span data-name></span>
+                    is gestopt met roken. Dit is wat hij er voor terug krijgt!
+                </p>
+            </header>
+            <div class="container flex">
+                <div class="progress" fraction="seconds">
+                    <div class="left"></div>
+                    <div class="right">
+                        <h2></h2>
+                        <h3>seconden</h3>
+                    </div>
+                </div>
+                <div class="progress" fraction="minutes">
+                    <div class="left"></div>
+                    <div class="right">
+                        <h2></h2>
+                        <h3>minuten</h3>
+                    </div>
+                </div>
+                <div class="progress" fraction="hours">
+                    <div class="left"></div>
+                    <div class="right">
+                        <h2></h2>
+                        <h3>uur</h3>
+                    </div>
+                </div>
+                <div class="progress" fraction="days">
+                    <div class="left"></div>
+                    <div class="right">
+                        <h2></h2>
+                        <h3>dagen</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="container flex">
+                <div class="progress" fraction="weeks">
+                    <div class="left"></div>
+                    <div class="right">
+                        <h2></h2>
+                        <h3>weken</h3>
+                    </div>
+                </div>
+                <div class="progress" fraction="months">
+                    <div class="left"></div>
+                    <div class="right">
+                        <h2></h2>
+                        <h3>maanden</h3>
+                    </div>
+                </div>
+                <div class="progress" fraction="years">
+                    <div class="left"></div>
+                    <div class="right">
+                        <h2></h2>
+                        <h3>jaar</h3>
+                    </div>
+                </div>
+                <div class="progress dark">
+                    <div class="right">
+                        <h2>
+                            <span>€<span id="euros"></span></span
+                            ><small>,<span id="cents"></span></small>
+                        </h2>
+                        <h3>bespaard</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="timeline">
+                    <div class="milestone" seconds="1200">
+                        <h3>Na 20 minuten</h3>
+                        <div class="milestone__progress"><div></div></div>
+                        <p>De bloeddruk en hartslag daalt.</p>
+                    </div>
+                    <div class="milestone" seconds="86400">
+                        <h3>Na 24 uur</h3>
+                        <div class="milestone__progress"><div></div></div>
+                        <p>
+                            Je longen beginnen aan de grote schoonmaak. Je hoest
+                            waarschijnlijk slijm op. Alle koolmonoxide is al uit
+                            je lichaam.
+                        </p>
+                    </div>
+                    <div class="milestone" seconds="172800">
+                        <h3>Na 48 uur</h3>
+                        <div class="milestone__progress"><div></div></div>
+                        <p>
+                            Alle nicotine is uit je lichaam. Je ruikt en proeft
+                            al wat beter.
+                        </p>
+                    </div>
+                    <div class="milestone" seconds="259200">
+                        <h3>Na 72 uur</h3>
+                        <div class="milestone__progress"><div></div></div>
+                        <p>Je hebt meer energie. Ademen gaat makkelijker.</p>
+                    </div>
+                    <div class="milestone" seconds="4233600">
+                        <h3>Na 2-12 weken</h3>
+                        <div class="milestone__progress"><div></div></div>
+                        <p>De longfunctie en bloedsomloop is verbeterd.</p>
+                    </div>
+                    <div class="milestone" seconds="2592000">
+                        <h3>Na 1 maand</h3>
+                        <div class="milestone__progress"><div></div></div>
+                        <p>
+                            Je conditie is beter geworden en je beweegt
+                            gemakkelijker. Als je een rokershoestje had
+                            verdwijnt dit.
+                        </p>
+                    </div>
+                    <div class="milestone" seconds="31104000">
+                        <h3>Na 1 jaar</h3>
+                        <div class="milestone__progress"><div></div></div>
+                        <p>
+                            Je risico op hart- en vaatziekten is inmiddels
+                            gehalveerd. Je risico op allerlei andere ziekten
+                            neemt de komende jaren steeds verder af.
+                        </p>
+                    </div>
+                    <div class="milestone" seconds="155520000">
+                        <h3>Na 5-15 jaar</h3>
+                        <div class="milestone__progress"><div></div></div>
+                        <p>
+                            Het risico op een beroerte is gelijk aan dat van een
+                            niet-roker.
+                        </p>
+                    </div>
+                    <div class="milestone" seconds="311040000">
+                        <h3>Na 10 jaar</h3>
+                        <div class="milestone__progress"><div></div></div>
+                        <p>
+                            Het verhoogde risico op longkanker is gehalveerd en
+                            het risico op andere kankersoorten verminderd.
+                        </p>
+                    </div>
+                    <div class="milestone" seconds="466560000">
+                        <h3>Na 15 jaar</h3>
+                        <div class="milestone__progress"><div></div></div>
+                        <p>
+                            Het risico op hart- en vaatziekten is gelijk aan dat
+                            van een niet-roker.
+                        </p>
+                    </div>
+                </div>
+
+                <p style="text-align: center;">
+                    <small
+                        ><a
+                            href="https://www.rokeninfo.nl/publiek/info-over-stoppen/effecten-gezondheid-stoppen-met-roken"
+                            target="blank"
+                            >NL: rokeninfo.nl</a
+                        >
+                        |
+                        <a
+                            href="https://www.cdc.gov/tobacco/data_statistics/sgr/2004/posters/20mins/index.htm"
+                            target="blank"
+                            >EN: cdc.gov</a
+                        >
+                        |
+                        <a href="https://jakequits.com/" target="blank"
+                            >Geïnspireerd door Jake Albaugh</a
+                        ></small
+                    >
+                </p>
+            </div>
+        </div>
+        <script src="./app.js"></script>
+    </body>
+</html>
